@@ -1,0 +1,10 @@
+.main .left .navbar>a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+.main .left .navbar .active{
+    color: #fff;
+    background-color: red;
+}

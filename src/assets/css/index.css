@@ -1,0 +1,72 @@
+html,body,#root,.app{
+    width: 100%;
+    height: 100%;
+}
+.app .fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.app .page{
+    margin-top: 2.2rem;
+}
+.app .fixed .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .15rem;
+    color: #fff;
+    height: 1.4rem;
+    font-size: .4rem;
+    background-color: #d43c33;
+}
+.app .fixed .top .left{
+    display: flex;
+    align-items: center;
+}
+.app .fixed .top .left>.icon-yinle{
+    font-size: .45rem;
+}
+.app .fixed .top .btnapp{
+    display: block;
+    background-color: #fff;
+    color: red;
+    width: 1.6rem;
+    height: .6rem;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .6rem;
+    border-radius: .3rem;
+}
+/* 导航 */
+.app .fixed .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: .8rem;
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+}
+.app .fixed .nav a{
+  flex: 1;
+  display: block;
+  width: 30%;
+  height: 100%;
+  font-size: .3rem;
+  text-align: center;
+  cursor: pointer;
+}
+.app .fixed .nav a.active{
+    color: red;
+}
+.app .fixed .nav a .tabtxt{
+    line-height: .8rem;
+}
+.app .fixed .nav a span{
+    padding: 0 .16rem .2rem;
+}
+.app .fixed .nav a.active span{
+    border-bottom: 2px solid #dd001b;
+}

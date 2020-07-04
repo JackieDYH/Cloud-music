@@ -1,0 +1,23 @@
+.searchlist{
+    margin-top: -2.2rem;
+    padding-top: 2.3rem;
+}
+.searchlist .search{
+    margin-top: .1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #999; */
+    line-height: .7rem;
+    height: .7rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: .4rem;
+    background-color: #ebecec;
+}
+.searchlist .search input{
+    flex: 1;
+    font-size: .3rem;
+    height: .7rem;
+    padding: 0 .2rem;
+}

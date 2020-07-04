@@ -1,0 +1,72 @@
+.hotlist{
+    width: 100%;
+}
+.hotlist .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1.8rem;
+    color: #fff;
+    padding-left: .5rem;
+    line-height: 1.8;
+}
+.hotlist .top>p:nth-of-type(1){
+    font-size: .26rem;
+}
+.hotlist .top h1{
+    font-size: .6rem;
+    color: #fff;
+}
+/* 热歌榜 */
+.hotlist .songlist{
+    padding: 0 .1rem;
+}
+.hotlist .songlist .songitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotlist .songlist .songitem .left{
+    font-size: .35rem;
+    margin-right: .08rem;
+    text-align: center;
+    width: 10%;
+}
+.hotlist .songlist .songitem:nth-child(-n+3) .left{
+    color: orangered;
+}
+.hotlist .songlist .songitem .right{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: .1rem 0;
+    line-height: 1.4;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.hotlist .songlist .songitem .right .txt{
+    flex: 1;
+    width: 80%;
+}
+.hotlist .songlist .songitem .right .txt .title{
+    font-size: .35rem;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+} 
+.hotlist .songlist .songitem .right .txt .thide{
+    font-size: .24rem;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+
+.hotlist .songlist .songitem .icon-play{
+    font-size: .5rem;
+    display: block;
+}

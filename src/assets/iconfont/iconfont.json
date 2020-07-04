@@ -1,0 +1,23 @@
+{
+  "id": "1922771",
+  "name": "网易云音乐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "配合GitHub上开源的网易云音乐接口实现",
+  "glyphs": [
+    {
+      "icon_id": "1249000",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "12708826",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

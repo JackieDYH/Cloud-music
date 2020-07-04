@@ -1,0 +1,26 @@
+.header{
+    height: 60px;
+    background-color: aqua;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    flex: 1;
+    display: flex;
+}
+.main .left{
+    width: 110px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.main .right{
+    flex: 1;
+}
+.footer{
+    height: 60px;
+    background-color: aqua;
+    line-height: 60px;
+    text-align: center;
+}
